@@ -1,4 +1,4 @@
-package ca.asumal.prototype;
+package ca.asumal.prototype.app;
 
 public class Item {
     private final String itemName;

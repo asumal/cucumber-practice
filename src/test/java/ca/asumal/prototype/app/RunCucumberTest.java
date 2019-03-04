@@ -1,4 +1,4 @@
-package ca.asumal.prototype;
+package ca.asumal.prototype.app;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

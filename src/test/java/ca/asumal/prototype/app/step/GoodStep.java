@@ -1,8 +1,8 @@
-package ca.asumal.prototype.step;
+package ca.asumal.prototype.app.step;
 
-import ca.asumal.prototype.Customer;
-import ca.asumal.prototype.Item;
-import ca.asumal.prototype.bean.World;
+import ca.asumal.prototype.app.Customer;
+import ca.asumal.prototype.app.Item;
+import ca.asumal.prototype.app.bean.World;
 import cucumber.api.java.en.Given;
 import org.springframework.beans.factory.annotation.Autowired;
 

@@ -1,7 +1,7 @@
-package ca.asumal.prototype.bean;
+package ca.asumal.prototype.app.bean;
 
-import ca.asumal.prototype.Customer;
-import ca.asumal.prototype.Item;
+import ca.asumal.prototype.app.Customer;
+import ca.asumal.prototype.app.Item;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 

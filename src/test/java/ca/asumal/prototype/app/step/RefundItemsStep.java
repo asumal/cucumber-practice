@@ -1,6 +1,6 @@
-package ca.asumal.prototype.step;
+package ca.asumal.prototype.app.step;
 
-import ca.asumal.prototype.bean.World;
+import ca.asumal.prototype.app.bean.World;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.hamcrest.CoreMatchers;
