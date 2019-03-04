@@ -6,7 +6,7 @@ Feature: Refund faulty items
 
   Scenario Outline: <name> returning a broken <item> for a refund of <price>
     Given that <name> bought a faulty <item> for <price>
-    When she return the kettle to the store
+    When she return the <item> to the store
     Then she will get <price> refunded
 
     Examples:
