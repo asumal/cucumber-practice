@@ -4,6 +4,7 @@ import ca.asumal.prototype.cucumberpractice.app.Customer;
 import ca.asumal.prototype.cucumberpractice.app.Item;
 import ca.asumal.prototype.cucumberpractice.test.World;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class GoodStep {
@@ -16,8 +17,8 @@ public class GoodStep {
     }
 
 
-    @Given("that <name> bought a faulty <item> for <price>")
-    public void thatNameBoughtAFaultyItemForPrice(String name, String itemType, int price) {
+    @Given("I <try> this where <item> for <price>")
+    public void iTryThisWhereItemForPrice(String name, String itemType, int price) {
         world.setCustomer(new Customer(name));
         world.setItem(new Item(itemType, price));
     }

@@ -4,13 +4,12 @@ Feature: Refund faulty items
   Background:
     Given Setup Dependency Injection
 
-  Scenario Outline: <name> returning a broken <item> for a refund of <price>
-    Given that <name> bought a faulty <item> for <price>
-    When she return the <item> to the store
-    Then she will get <price> refunded
-
+  Scenario Outline: test
+    Given I <try> this where <item> for <price>
+    When she return the <item> to the thing
+    Then she will get <price> refffuundd
     Examples:
-    | name    | item | price |
-    | Joanne | kettle | 100 |
-    | Arjun  | kettle | 100 |
-    | Jimmy  | bell   | 150 |
+      | try    | item  | price |
+      | Joanne | b     | 133   |
+      | Arjun  | kell  | 546   |
+      | Billy  | thing | dads  |

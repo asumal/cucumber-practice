@@ -7,6 +7,7 @@
     <artifactId>cucumber-practice</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>cucumber-practice-app</module>
         <module>cucumber-practice-test</module>
