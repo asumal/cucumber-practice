@@ -1,4 +1,4 @@
-package ca.asumal.prototype.app;
+package ca.asumal.prototype.cucumberpractice.app;
 
 public class Item {
     private final String itemName;
