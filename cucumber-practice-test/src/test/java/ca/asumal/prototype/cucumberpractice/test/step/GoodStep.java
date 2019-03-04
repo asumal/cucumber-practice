@@ -1,4 +1,4 @@
-package ca.asumal.prototype.app.step;
+package ca.asumal.prototype.cucumberpractice.test.step;
 
 import ca.asumal.prototype.cucumberpractice.app.Customer;
 import ca.asumal.prototype.cucumberpractice.app.Item;

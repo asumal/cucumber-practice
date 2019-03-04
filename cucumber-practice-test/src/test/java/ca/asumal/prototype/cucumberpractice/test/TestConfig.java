@@ -1,4 +1,4 @@
-package ca.asumal.prototype.app;
+package ca.asumal.prototype.cucumberpractice.test;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

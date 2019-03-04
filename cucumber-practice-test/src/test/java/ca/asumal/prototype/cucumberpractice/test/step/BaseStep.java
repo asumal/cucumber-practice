@@ -1,6 +1,6 @@
-package ca.asumal.prototype.app.step;
+package ca.asumal.prototype.cucumberpractice.test.step;
 
-import ca.asumal.prototype.app.TestConfig;
+import ca.asumal.prototype.cucumberpractice.test.TestConfig;
 import cucumber.api.java.en.Given;
 import org.springframework.test.context.ContextConfiguration;
 
